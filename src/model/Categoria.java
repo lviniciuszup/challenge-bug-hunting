@@ -1,4 +1,5 @@
 package model;
 
-public class Enum {
+public enum Categoria {
+    FILME, SERIE, DOCUMENTARIO, OUTROS;
 }
