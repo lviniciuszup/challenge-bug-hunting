@@ -14,7 +14,7 @@ public class VideoServiceImpl implements VideoService {
 
     @Override
     public void addVideo(Video video) {
-        validateVideo(video); // Validações extraídas para um metodo
+        validateVideo(video); // Validações para um metodo
         repository.save(video);
     }
 
